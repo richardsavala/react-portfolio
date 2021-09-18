@@ -24,6 +24,19 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
+              <p className="mt-1">Caldwell, ID 83605</p>
+            </div>
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                EMAIL
+              </h2>
+              <a className="text-indigo-400 leading-relaxed">
+                richardsavala2@gmail.com
+              </a>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                PHONE
+              </h2>
+              <p className="leading-relaxed">208-965-5450</p>
             </div>
           </div>
         </div>
