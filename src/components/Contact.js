@@ -3,10 +3,10 @@ import React from "react";
 export default function Contact() {
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto lfex sm:flex-nowrap flex-wrap">
+      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div
-          className="g:w-2/3 md:w1/2 bg-gray- 900 rounded-lg overflow-hidden
-        sm:mr-10 p-10 flex items end justify-start relative"
+          className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden
+        sm:mr-10 p-10 flex items-end justify-start relative"
         >
           <iframe
             width="100%"
@@ -17,7 +17,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960899.6256571757!2d-118.56711054951474!3d43.55438970624503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54afb2bb781a17cb%3A0x6edc428b43754d9c!2sCaldwell%2C%20ID!5e0!3m2!1sen!2sus!4v1631943112198!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed/v1/place?q=caldwell,+ID&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -53,11 +53,7 @@ export default function Contact() {
             eligendi mollitia consequuntur quasi error quibusdam!
           </p>
           <div className="relative mb-4">
-            <label
-              htmlFor="name"
-              className='
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400'
-            >
+            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
             <input
@@ -68,11 +64,22 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4">
+            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+              Email
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+          <div className="relative mb-4">
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-400"
             >
-              Mesaage
+              Message
             </label>
             <textarea
               id="message"
