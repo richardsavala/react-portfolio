@@ -1,16 +1,16 @@
 export const projects = [{
         title: "React Advanced Tutorial",
-        subtitle: "React With Hooks",
+        subtitle: "React Cart",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: "./project-1.gif",
         link: "https://github.com/richardsavala/advanced-react-tutorial",
     },
     {
-        title: "React Tracks",
-        subtitle: "React and Python",
+        title: "React Menus",
+        subtitle: "React Stripe Menus",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: "./project-2.gif",
-        link: "https://reactbootcamp.com",
+        link: "https://github.com/richardsavala/react-stripe-menus",
     },
     {
         title: "DevChat",
