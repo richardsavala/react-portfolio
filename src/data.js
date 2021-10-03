@@ -6,25 +6,25 @@ export const projects = [{
         link: "https://github.com/richardsavala/advanced-react-tutorial",
     },
     {
-        title: "React Menus",
+        title: "React ADvanced Tutorial",
         subtitle: "React Stripe Menus",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: "./project-2.gif",
         link: "https://github.com/richardsavala/react-stripe-menus",
     },
     {
-        title: "DevChat",
-        subtitle: "React and Firebase",
+        title: "React Advanced Tutorial",
+        subtitle: "React Sidebar Modal",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: "./project-3.gif",
-        link: "https://reactbootcamp.com",
+        link: "https://github.com/richardsavala/react-sidebar-modal",
     },
     {
-        title: "React Portfolio",
-        subtitle: "React Hooks",
+        title: "React Advanced Tutorial",
+        subtitle: "React Navbar",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: "./project-4.gif",
-        link: "https://github.com/richardsavala/react-portfolio",
+        link: "https://github.com/richardsavala/react-navbar",
     },
 ];
 
