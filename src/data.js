@@ -6,24 +6,24 @@ export const projects = [{
         link: "https://github.com/richardsavala/advanced-react-tutorial",
     },
     {
-        title: "React ADvanced Tutorial",
+        title: "React Advanced Tutorial",
         subtitle: "React Stripe Menus",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-2.gif",
+        image: "./stripe.gif",
         link: "https://github.com/richardsavala/react-stripe-menus",
     },
     {
         title: "React Advanced Tutorial",
         subtitle: "React Sidebar Modal",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-3.gif",
+        image: "./sidebar-modal.gif",
         link: "https://github.com/richardsavala/react-sidebar-modal",
     },
     {
         title: "React Advanced Tutorial",
         subtitle: "React Navbar",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
+        image: "./navbar.gif",
         link: "https://github.com/richardsavala/react-navbar",
     },
 ];
