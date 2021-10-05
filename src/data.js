@@ -21,9 +21,9 @@ export const projects = [{
     },
     {
         title: "React Advanced Tutorial",
-        subtitle: "React Navbar",
+        subtitle: "React List",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./navbar.gif",
+        image: "./grocery-bud.gif",
         link: "https://github.com/richardsavala/react-navbar",
     },
 ];
