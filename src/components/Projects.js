@@ -12,13 +12,12 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsum
-            cumque laboriosam assumenda dicta nulla voluptates tempora quidem
-            iste dolorum.
+            My portfolio is my latest project, here are a few of my past
+            projects.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => {
+          {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
@@ -40,8 +39,8 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-            </a>;
-          })}
+            </a>
+          ))}
         </div>
       </div>
     </section>
