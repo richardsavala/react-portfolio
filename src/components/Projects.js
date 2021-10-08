@@ -12,8 +12,8 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This portfolio website is my latest project, here are a few of my
-            past projects.
+            This portfolio website is my latest project, but here are a few of
+            my past projects.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
