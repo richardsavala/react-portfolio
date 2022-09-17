@@ -31,14 +31,14 @@ export const projects = [{
 export const testimonials = [{
         quote: "Richard is great! Richard made my candidate a website fast.",
         image: "https://randomuser.me/api/portraits/men/1.jpg",
-        name: "Bob Soloman",
-        company: "",
+        name: "Nathaniel Titsworth",
+        company: "Diamond Pressue Washing",
     },
     {
-        quote: "Richard was great. He built my companys website!",
+        quote: "Richard is building my company's first website, he communicates well and keeps me up-to-date!",
         image: "https://randomuser.me/api/portraits/men/94.jpg",
-        name: "Colter Congerf",
-        company: "",
+        name: "Tommy Young",
+        company: "Young Buns Hotdogs",
     },
 ];
 
